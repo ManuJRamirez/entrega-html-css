@@ -1,0 +1,65 @@
+.banner {
+    height: 75vh;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* ?? */
+  .banner .banner__content {
+    z-index: 1;
+    position: relative;
+    animation: fade-in 5s linear;
+  }
+    
+    .banner .banner__image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      background-image: url(../fotos/banner.JPG);
+      /*
+      background-repeat: no-repeat;
+      background-size: cover;
+      */
+      z-index: 0;
+      opacity: 0.3;
+    }
+    @media (800px <= width) and (orientation: landscape) {
+      .banner {
+        height: 55vh;
+      }
+    }
+    @media (min-width: 768px){
+        .banner .banner__image{
+          background-image: url(../fotos/logo.jpeg);
+        }    
+    }
+    
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+        width: 0;
+      } /*Inicio*/
+      
+      20% {
+        width: 100%;
+      }
+      
+      50% {
+        width: 50%;
+      }
+      
+      75% {
+        width: 100%;
+      }
+      
+      100% {
+        opacity: 1;
+      } /*Fin*/
+    }
+    
+   

@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica Portfolio</title>
+    <title>Prá6ctica Portfolio</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/components.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/barras-progreso.css">
+    <link rel="stylesheet" href="style/banner.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__image">
+          <img src="fotos/logo.jpeg" alt="Logo-web">
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__list__item">
+              <a class="btn" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="header__nav__list__item">
+                <a class="btn" href="#habilidades">Mis habilidades</a>
+            </li>
+            <li class="header__nav__list__item">
+              <a class="btn" href="#galeria">Galería</a>
+            </li>
+            <li class="header__nav__list__item">
+                <a class="btn" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sobre-mi">
+          <!-- texto -->
+          <div class="sobre-mi__text">
+            <h2>Sobre mí</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, delectus magni laborum iste ex assumenda expedita repellendus ducimus qui deleniti iure sapiente natus similique maiores minus necessitatibus accusantium nobis totam.</p>
+          </div>        
+        </section>
+
+        <section class="habilidades">
+            <div class="habilidades__text">
+                <h2>Mis poderosas habilidades</h2>                
+            </div>
+            <div class="progress-bar-container">
+                <h2>JavaScript</h2>
+                <div class="progress-bar">
+                    <span class="percentage javascript"></span>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="banner__image">
+            <<!--
+                <picture>
+                <source srcset="fotos/banner.JPG" media="(min-width: 768px)">
+                <img src="fotos/logo.jpeg">
+                </picture>
+            -->
+            </div>
+            <div class="banner__content">
+              <h1>Unlimited movies, TV shows, and more</h1>
+              <h2>Watch anywhere. Cancel anytime</h2>
+              <p>Ready to watch?</p>
+            </div>
+        </section>
+       
+    </main>
 </body>
 </html>
