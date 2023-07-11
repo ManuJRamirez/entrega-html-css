@@ -19,7 +19,7 @@
 }
 
 .btn.btn--secondary{
-  background-color: transparent;
+  background-color: blue;
   border-color: var(--main-text-color);
 }
 
@@ -32,3 +32,4 @@
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
+

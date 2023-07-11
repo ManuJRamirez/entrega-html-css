@@ -1,0 +1,48 @@
+.questions{
+    margin-top: -10px;
+}
+
+.check{
+    margin: 15px;
+}
+
+.check__list{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form__element{
+    /*display: flex;*/
+    margin-bottom: 12px;
+    margin-left: 15px;
+    /*align-content: flex-start;*/
+  }
+  
+  .form__element--checkbox{
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .form__element--checkbox input[type="checkbox"]{
+    margin-right: 5px;
+    display: flex;
+    position: sticky;
+}
+  
+  .form__label{
+    margin: 10px;
+    display: flex;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;   
+  }
+  
+  .form__input{
+    /*padding: 16px 12px;*/
+    display: flex;
+    align-content: flex-start;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid grey;
+    color: rgb(0, 0, 0);
+  }

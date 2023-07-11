@@ -20,11 +20,11 @@
       right: 0;
       left: 0;
       top: 0;
+      margin: 0 10px 0 10px;
       background-image: url(../fotos/banner.JPG);
-      /*
+      background-size: 60vh;
       background-repeat: no-repeat;
-      background-size: cover;
-      */
+      background-position: center;
       z-index: 0;
       opacity: 0.3;
     }
@@ -36,7 +36,16 @@
     @media (min-width: 768px){
         .banner .banner__image{
           background-image: url(../fotos/logo.jpeg);
+          background-size: 200vh;
+          background-position: center;
+          margin: 10px; 
         }    
+    }
+    @media (500px < width) and (768px > width){
+      .banner .banner__image {
+        background-image: url(../fotos/banner.JPG);
+        background-size: 110vh;
+      }
     }
     
     @keyframes fade-in {

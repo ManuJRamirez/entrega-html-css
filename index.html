@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/barras-progreso.css">
     <link rel="stylesheet" href="style/banner.css">
+    <link rel="stylesheet" href="style/cuestionario.css">
+    <link rel="stylesheet" href="style/footer.css">
 </head>
 <body>
     <header class="header">
@@ -67,16 +69,30 @@
                     </div>
                 </li>
               </ul>
+              <ul class="progress-bar-container">
+                <li class="skill">
+                  <h2>JavaScript</h2>
+                    <div class="progress-bar">
+                      <span class="percentage javascript"></span>
+                    </div>
+                </li>
+                <li class="skill">
+                  <h2>JavaScript</h2>
+                    <div class="progress-bar">
+                      <span class="percentage javascript"></span>
+                    </div>
+                </li>
+                <li class="skill">
+                  <h2>JavaScript</h2>
+                    <div class="progress-bar">
+                      <span class="percentage javascript"></span>
+                    </div>
+                </li>
+              </ul>
             </div>
         </section>
         <section class="banner">
             <div class="banner__image">
-            <<!--
-                <picture>
-                <source srcset="fotos/banner.JPG" media="(min-width: 768px)">
-                <img src="fotos/logo.jpeg">
-                </picture>
-            -->>
             </div>
             <div class="banner__content">
               <h1>Unlimited movies, TV shows, and more</h1>
@@ -84,7 +100,81 @@
               <p>Ready to watch?</p>
             </div>
         </section>
-       
-    </main>
+        <section class="questions">
+          <form method="post" action="enviook.html">
+            <div class>
+              <div class="form__element">
+                <label class="form__label" for="name">Nombre</label>
+                <input
+                  class="form__input"
+                  id="name"
+                  type="text"
+                  placeholder="Escribe tu nombre"
+                  name="name"
+                  required
+                  >
+              </div>
+            <div class="form__element">
+              <label class="form__label" for="apellidos">Apellidos</label>
+              <input    
+                class="form__input"
+                id="surname"
+                type="text"
+                placeholder="Escribe tus apellidos"
+                name="surname"
+                required
+                >
+            </div>
+            <div class="form__element">
+              <label class="form__label" for="phone">Teléfono</label>
+              <input
+                class="form__input"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Plantilla 600000000"
+                title="Format is 600000000"
+                pattern="[0-9]{9}"
+                required
+              >
+            </div>
+            <div>  
+              <legend class="check">¿Cómo me conocistes?</legend>
+              <div class="check__list">
+                <label for="uni">Universidad</label>
+                <input type="radio" id="uni" name="category" checked value="universidad">
+                <label for="keepcoding">keepcoding kick-off</label>
+                <input type="radio" id="keepcoding" name="category" value="keepcoding-kick-off">
+                <label for="cole">Colegio</label>
+                <input type="radio" id="cole" name="category" value="colegio">
+                <label for="git">Github</label>
+                <input type="radio" id="git" name="category" value="github">
+              </div>
+            </div>
+            <div class="form__element">
+              <label class="form__label" for="bio">Más información</label>
+              <textarea class="form__input" name="bio" id="bio" placeholder="¿Qué más necesitas saber de una perrita tan guay como yo?" required maxlength="180"></textarea>
+            </div>
+            <div class="form__element form__element--checkbox">
+              <input type="checkbox" name="updated" id="updated">
+              <label for="remember">Quiero que me mantengan informado (Newsletter)</label>
+            </div>
+            <div>
+              <button class="btn btn--secondary" type="reset">Reset</button>
+              <input class="btn" type="submit" value="reset">
+            </div>
+            <div>
+              <button class="btn btn--secondary" type="submit">Enviar</button>
+              <input class="btn" type="submit" value="send">
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer id="footer" class="footer">
+        <a href="https://www.instagram.com/meinordica/"><img class="footer__img" src="fotos/instagram.png"></a>
+        <a href="#not_found"><img class="footer__img" src="fotos/facebook.png"></a>
+        <a href="#not_found"><img class="footer__img" src="fotos/youtube.png"></a>
+
+      </footer>
 </body>
 </html>
