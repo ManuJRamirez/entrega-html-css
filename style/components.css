@@ -23,3 +23,12 @@
   border-color: var(--main-text-color);
 }
 
+.sobre-mi{
+  margin: 20px ;
+}
+
+.sobre-mi p{
+  margin: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}

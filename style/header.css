@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 300px;
+    min-width: 610px;
 }
 
 .header__image {
@@ -20,7 +20,7 @@
     border: 3px solid red;
 }
 
-.header .header__nav ul.header__nav__list {
+.header .header__nav .header__nav__list {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -31,18 +31,13 @@
 .header__nav .header__nav__list .header__nav__list__item > a {
     text-decoration: none;
 }
-/*@media (768px <= width) {
-    .header .header__image img {
-      width: 100px;
-      border-radius: 50%;
-      border: 5px solid red;
-    }
-  }*/
 
-  @media (380px >= width){
+  @media (768px >= width){
     .header .header__image img {
-        width: 160%;
-        min-width: 30px;
+        width: 7vh;
         border: 2px solid red;
+    }
+    .header{
+        min-width: 220px;
     }
   }

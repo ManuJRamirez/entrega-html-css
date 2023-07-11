@@ -3,21 +3,44 @@
 .habilidades {
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
+.habilidades__text{
+    display: flex;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;   
+}
 /* Stylingthe last h2 tag by giving margin bottom */
 /*.progress-bar-container:not(:last-child) {
     margin-bottom: 50px;
 }*/
+
 .progress-bar-container{
-    margin-bottom: 50px;
+    list-style: none;
+    display: block;
+    align-content: space-between;
+    margin: 0 auto;
 }
+.skill {
+    margin-right: 20px;
+}
+@media (768px <= width){
+    .progress-bar-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .skill{
+        width: 35%;
+    }
+}
+
 
 /* Styling the h2 tag by giving color,
 letter spacing, font-size etc.*/
 .progress-bar-container h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
     letter-spacing: 1px;
     font-size: 20px;
 }
@@ -25,8 +48,8 @@ letter spacing, font-size etc.*/
 /* Styling the border and box
 effect of the progress bar*/
 .progress-bar {
-    width: 800px;
-    height: 5px;
+    width: relative;
+    height: 10px;
     margin-top: 10px;
     border: 1px solid #565656;
     border-radius: 5px;
