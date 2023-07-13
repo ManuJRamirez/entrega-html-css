@@ -1,20 +1,24 @@
 .btn {
     color: var(--main-text-color);
-    background-color: var(--main-brand-color);
+    background-color: var(--main-btn-color);
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid var(--main-brand-color);
-    transition: font-size 1s linear;
+    /*border: 1px solid var(--main-text-color);*/
+    transition: background-color 2s linear;
+   /* transition: font-size 1s linear;
     /*transition-delay: 1s */
+    
 }
 
 .btn:hover {
-    font-size:var(--main-brand-color-light);
+  background-color:var(--main-btn-color-transition);
+    /*font-size:var(--main-text-size-transition);*/
 }
 
 @media (hover: hover) {
   .btn:hover {
-    font-size: var(--main-brand-color-light);
+    background-color: var(--main-btn-color-transition);
+    /*font-size: var(--main-text-size-transition);*/
   }
 }
 
@@ -25,11 +29,11 @@
 
 .sobre-mi{
   margin: 20px ;
+  padding-top:100px; 
 }
 
-.sobre-mi p{
+.sobre-mi__text p{
   margin: 25px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
-

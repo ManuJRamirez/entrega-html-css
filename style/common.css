@@ -1,12 +1,24 @@
 :root {
-  --main-text-color: rgba(255, 255, 255, 1);
-  --main-bg-color: #0876f3;
-  --main-brand-color: #09b9e500;
-  --main-brand-color-light: 19px ;
-  font-size: 16px;
+  --main-text-color: rgba(100, 70, 36, 1);
+  --main-bg-color: #0876f300;
+  --main-brand-color: #09b9e5;
+  --main-btn-color:rgba(228, 194, 155, 0.295);
+  --main-text-size-transition: 140% ;
+  --main-btn-color-transition:rgba(228, 194, 155, 0.849);
+  font-size: 120%;
   font-family: 'Roboto', sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-image: url(../fotos/bg-brown-dogprint.jpg);
+  background-size: contain;  
+  z-index: -2px;
+}
+
+main {
+  margin: 0 15% 0 15%; 
 }

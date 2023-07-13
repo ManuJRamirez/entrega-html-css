@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prá6ctica Portfolio</title>
+    <title>Práctica Portfolio</title>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/components.css">
@@ -14,78 +14,78 @@
     <link rel="stylesheet" href="style/footer.css">
 </head>
 <body>
+  <div class="spinner"></div>
     <header class="header">
         <div class="header__image">
-          <img src="fotos/logo.jpeg" alt="Logo-web">
+          <a href="index.html"><img src="fotos/logo.jpeg" alt="Logo-web"></a>
         </div>
         <nav class="header__nav">
           <ul class="header__nav__list">
-            <li class="header__nav__list__item">
-              <a class="btn" href="#sobre-mi">Sobre mí</a>
+            <li class="header__nav__list__item header__nav__list__item__hidemobile">
+                <a class="btn" href="index.html#habilidades">Habilidades</a>
             </li>
             <li class="header__nav__list__item">
-                <a class="btn" href="#habilidades">Mis habilidades</a>
+              <a class="btn" href="galeria.html">Galería</a>
             </li>
-            <li class="header__nav__list__item">
-              <a class="btn" href="#galeria">Galería</a>
-            </li>
-            <li class="header__nav__list__item">
-                <a class="btn" href="#contacto">Contacto</a>
+            <li class="header__nav__list__item header__nav__list__item__hidemobile">
+                <a class="btn" href="index.html#contacto">Contacto</a>
             </li>
           </ul>
         </nav>
     </header>
     <main>
-        <section class="sobre-mi">
+        <section id="sobre-mi">
           <!-- texto -->
           <div class="sobre-mi__text">
             <h2>Sobre mí</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, delectus magni laborum iste ex assumenda expedita repellendus ducimus qui deleniti iure sapiente natus similique maiores minus necessitatibus accusantium nobis totam.</p>
+            <p>Mi nombre es Meilyn.</p>
+            <p>Nací el 7 de Abril de 2023.</p>
+            <p>Soy una husky muy traviesa deseando vivir nuevas aventuras. Si quieres saber más, no dudes en contactarme.</p>
           </div>        
         </section>
 
-        <section class="habilidades">
+        <section id="habilidades">
             <div class="habilidades__text">
                 <h2>Mis poderosas habilidades</h2>                
             </div>
             <div>
               <ul class="progress-bar-container">
                 <li class="skill">
-                  <h2>JavaScript</h2>
+                  <h2>Jardinería</h2>
                   <div class="progress-bar">
-                    <span class="percentage javascript"></span>
+                    <span class="percentage jardineria"></span>
                   </div>
                   </li>
                   <li class="skill">
-                    <h2>JavaScript</h2>
+                    <h2>Maratón</h2>
                     <div class="progress-bar">
-                      <span class="percentage javascript"></span>
+                      <span class="percentage maraton"></span>
                     </div>
                   </li>
                 <li class="skill">
-                  <h2>JavaScript</h2>
+                  <h2>Canto</h2>
                     <div class="progress-bar">
-                      <span class="percentage javascript"></span>
+                      <span class="percentage canto"></span>
                     </div>
                 </li>
               </ul>
               <ul class="progress-bar-container">
                 <li class="skill">
-                  <h2>JavaScript</h2>
+                  <h2>Descanso</h2>
                     <div class="progress-bar">
-                      <span class="percentage javascript"></span>
+                      <span class="percentage descanso"></span>
                     </div>
                 </li>
                 <li class="skill">
-                  <h2>JavaScript</h2>
+                  <h2>Cocina</h2>
                     <div class="progress-bar">
-                      <span class="percentage javascript"></span>
+                      <span class="percentage cocina"></span>
                     </div>
                 </li>
                 <li class="skill">
-                  <h2>JavaScript</h2>
+                  <h2>Natación</h2>
                     <div class="progress-bar">
-                      <span class="percentage javascript"></span>
+                      <span class="percentage natacion"></span>
                     </div>
                 </li>
               </ul>
@@ -95,86 +95,71 @@
             <div class="banner__image">
             </div>
             <div class="banner__content">
-              <h1>Unlimited movies, TV shows, and more</h1>
-              <h2>Watch anywhere. Cancel anytime</h2>
-              <p>Ready to watch?</p>
+              <h1>Meilyn</h1>
+              <h2>Husky Siberiano Agouti</h2>
             </div>
         </section>
-        <section class="questions">
+        <section id="contacto" class="card">
+          <div class="contacto__text">
+              <h2>Contacto</h2>                
+          </div>
           <form method="post" action="enviook.html">
             <div class>
-              <div class="form__element">
+              <div class="form__element form__element__cuestionario__izq">
                 <label class="form__label" for="name">Nombre</label>
-                <input
-                  class="form__input"
-                  id="name"
-                  type="text"
-                  placeholder="Escribe tu nombre"
-                  name="name"
-                  required
-                  >
+                <input class="form__input" id="name" type="text"
+                  placeholder="Escribe tu nombre" name="name" required>
               </div>
-            <div class="form__element">
+            <div class="form__element form__element__apellidos form__element__cuestionario__dcha">
               <label class="form__label" for="apellidos">Apellidos</label>
-              <input    
-                class="form__input"
-                id="surname"
-                type="text"
-                placeholder="Escribe tus apellidos"
-                name="surname"
-                required
-                >
+              <input class="form__input" id="surname" type="text"
+                placeholder="Escribe tus apellidos" name="surname"required>
             </div>
-            <div class="form__element">
+            <div class="form__element form__element__cuestionario__izq">
               <label class="form__label" for="phone">Teléfono</label>
-              <input
-                class="form__input"
-                type="tel"
-                id="phone"
-                name="phone"
-                placeholder="Plantilla 600000000"
-                title="Format is 600000000"
-                pattern="[0-9]{9}"
-                required
-              >
+              <input class="form__input" type="tel" id="phone" name="phone"
+                placeholder="Plantilla 600000000" title="Format is 600000000"
+                pattern="[0-9]{9}" required>
             </div>
-            <div>  
-              <legend class="check">¿Cómo me conocistes?</legend>
-              <div class="check__list">
-                <label for="uni">Universidad</label>
-                <input type="radio" id="uni" name="category" checked value="universidad">
-                <label for="keepcoding">keepcoding kick-off</label>
-                <input type="radio" id="keepcoding" name="category" value="keepcoding-kick-off">
-                <label for="cole">Colegio</label>
-                <input type="radio" id="cole" name="category" value="colegio">
-                <label for="git">Github</label>
-                <input type="radio" id="git" name="category" value="github">
-              </div>
+            <div class="form__element form__element__cuestionario__izq">  
+              <legend class="form__legend">¿Cómo me conocistes?</legend>
+              <div class="form__radio">
+                <div>
+                  <input type="radio" id="uni" name="category" checked value="universidad">
+                  <label for="uni">Universidad</label>
+                <div>
+                  <input type="radio" id="keepcoding" name="category" value="keepcoding-kick-off">
+                  <label for="keepcoding">keepcoding kick-off</label>
+                </div>
+                <div>
+                  <input type="radio" id="cole" name="category" value="colegio">
+                  <label for="cole">Colegio</label>
+                </div>
+                <div>
+                  <input type="radio" id="git" name="category" value="github">
+                  <label for="git">Github</label>
+                </div>
             </div>
-            <div class="form__element">
+            </div>
+            <div class="form__element form__element__cuestionario__izq">
               <label class="form__label" for="bio">Más información</label>
               <textarea class="form__input" name="bio" id="bio" placeholder="¿Qué más necesitas saber de una perrita tan guay como yo?" required maxlength="180"></textarea>
             </div>
-            <div class="form__element form__element--checkbox">
+            <div class="form__element form__element__cuestionario__izq"><!-- form__element--checkbox">-->
               <input type="checkbox" name="updated" id="updated">
               <label for="remember">Quiero que me mantengan informado (Newsletter)</label>
             </div>
-            <div>
-              <button class="btn btn--secondary" type="reset">Reset</button>
-              <input class="btn" type="submit" value="reset">
-            </div>
-            <div>
-              <button class="btn btn--secondary" type="submit">Enviar</button>
-              <input class="btn" type="submit" value="send">
+            <div class="form__element__cuestionario__izq">
+              <button class="btn" type="reset">Reset</button>
+              <input class="btn" type="submit" value="Enviar">
             </div>
           </form>
         </section>
-      </main>
-      <footer id="footer" class="footer">
-        <a href="https://www.instagram.com/meinordica/"><img class="footer__img" src="fotos/instagram.png"></a>
-        <a href="#not_found"><img class="footer__img" src="fotos/facebook.png"></a>
-        <a href="#not_found"><img class="footer__img" src="fotos/youtube.png"></a>
-
-      </footer>
-</body>
+    </main>
+    <footer id="footer" class="footer">
+      <a href="https://www.instagram.com/meinordica/"><img class="footer__img" src="fotos/instagram.png"></a>
+      <a href="#not_found"><img class="footer__img" src="fotos/facebook.png"></a>
+      <a href="#not_found"><img class="footer__img" src="fotos/youtube.png"></a>
+    </footer>
+  </body>
 </html>

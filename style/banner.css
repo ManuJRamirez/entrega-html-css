@@ -12,6 +12,7 @@
     z-index: 1;
     position: relative;
     animation: fade-in 5s linear;
+    color: white;
   }
     
     .banner .banner__image {
@@ -26,7 +27,7 @@
       background-repeat: no-repeat;
       background-position: center;
       z-index: 0;
-      opacity: 0.3;
+      opacity: 0.95;
     }
     @media (800px <= width) and (orientation: landscape) {
       .banner {

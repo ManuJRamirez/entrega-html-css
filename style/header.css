@@ -1,13 +1,14 @@
 .header {
-    position: sticky;
-    background-color: var(--main-bg-color);
+    background-image: url(../fotos/header-img.jpg);
+    background-size: contain;  
     z-index: 999;
     top: 0;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-width: 610px;
+    border-bottom: rgba(100, 70, 36, 1) solid 5px;
 }
 
 .header__image {
@@ -17,27 +18,31 @@
 .header__image img {
     width: 100%;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 5px solid  rgba(100, 70, 36, 1);
 }
 
 .header .header__nav .header__nav__list {
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
+
 }
 
 .header__nav .header__nav__list .header__nav__list__item > a {
     text-decoration: none;
+    font-weight: bold;
 }
 
   @media (768px >= width){
     .header .header__image img {
         width: 7vh;
-        border: 2px solid red;
+        border: 6px solid rgba(100, 70, 36, 1);
     }
     .header{
         min-width: 220px;
+    }
+
+    .header .header__nav .header__nav__list .header__nav__list__item__hidemobile{
+        display: none; 
     }
   }

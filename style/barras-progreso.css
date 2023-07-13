@@ -67,28 +67,28 @@ animation and border radius */
 }
 
 /* Assigning width of each languages*/
-.c {
-    width: 85%;
+.jardineria {
+    width: 80%;
 }
 
-.java {
-    width: 70%;
+.maraton {
+    width: 90%;
 }
 
-.python {
+.canto {
     width: 55%;
 }
 
-.html {
+.descanso {
+    width: 100%;
+}
+
+.cocina {
     width: 75%;
 }
 
-.css {
-    width: 65%;
-}
-
-.javascript {
-    width: 55%;
+.natacion {
+    width: 5%;
 }
 
 /* Animating the progress bar by

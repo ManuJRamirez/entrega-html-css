@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/components.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/galeria.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__image">
+          <a href="index.html"><img src="fotos/logo.jpeg" alt="Logo-web"></a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__list__item header__nav__list__item__hidemobile">
+                <a class="btn" href="index.html#habilidades">Habilidades</a>
+            </li>
+            <li class="header__nav__list__item">
+              <a class="btn" href="galeria.html">Galería</a>
+            </li>
+            <li class="header__nav__list__item header__nav__list__item__hidemobile">
+                <a class="btn" href="index.html#contacto">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- video -->
+        <section class="galeria__video">
+            <video src="/video/video-devices.m4v" muted autoplay>
+                <source src="/video/video-devices.m4v" type="video/mp4">
+            </video>
+        </section>
+        <!-- Imagenes -->
+        <section class="galeria">
+            <div>
+                <h2>Galería</h2>
+            </div>
+            <ul class="galeria__list">
+                <li>
+                    <figure>
+                        <img src="/fotos/mei.jpeg" alt="mei">
+                        <figcaption>Yo</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/fotos/mei_tazakc.jpeg" alt="keepcoding">
+                        <figcaption>Mi taza de KeepCoding</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/fotos/mei_cama.jpeg" alt="cama">
+                        <figcaption>Mi cama</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/fotos/mei_mono.jpeg" alt="mono">
+                        <figcaption>Mono y yo</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+      <a href="https://www.instagram.com/meinordica/"><img class="footer__img" src="fotos/instagram.png"></a>
+      <a href="#not_found"><img class="footer__img" src="fotos/facebook.png"></a>
+      <a href="#not_found"><img class="footer__img" src="fotos/youtube.png"></a>
+    </footer>   
+</body>
+</html>
