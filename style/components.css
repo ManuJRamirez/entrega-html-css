@@ -1,31 +1,23 @@
 .btn {
-    color: var(--main-text-color);
-    background-color: var(--main-btn-color);
-    padding: 10px;
-    border-radius: 5px;
-    /*border: 1px solid var(--main-text-color);*/
-    transition: background-color 2s linear;
-   /* transition: font-size 1s linear;
-    /*transition-delay: 1s */
+  color: var(--main-text-color);
+  background-color: var(--main-btn-color);
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 1s linear;
+
     
 }
 
 .btn:hover {
   background-color:var(--main-btn-color-transition);
-    /*font-size:var(--main-text-size-transition);*/
 }
 
 @media (hover: hover) {
   .btn:hover {
     background-color: var(--main-btn-color-transition);
-    /*font-size: var(--main-text-size-transition);*/
   }
 }
 
-.btn.btn--secondary{
-  background-color: blue;
-  border-color: var(--main-text-color);
-}
 
 .sobre-mi{
   margin: 20px ;

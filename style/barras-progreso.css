@@ -11,10 +11,6 @@
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;   
 }
-/* Stylingthe last h2 tag by giving margin bottom */
-/*.progress-bar-container:not(:last-child) {
-    margin-bottom: 50px;
-}*/
 
 .progress-bar-container{
     list-style: none;
@@ -35,9 +31,6 @@
     }
 }
 
-
-/* Styling the h2 tag by giving color,
-letter spacing, font-size etc.*/
 .progress-bar-container h2 {
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
@@ -45,8 +38,6 @@ letter spacing, font-size etc.*/
     font-size: 20px;
 }
 
-/* Styling the border and box
-effect of the progress bar*/
 .progress-bar {
     width: relative;
     height: 10px;
@@ -56,8 +47,6 @@ effect of the progress bar*/
     box-shadow: 0 0 10px rgb(245, 159, 0);
 }
 
-/* Stylingthe background color of each
-animation and border radius */
 .percentage {
     display: block;
     height: 100%;
@@ -66,7 +55,7 @@ animation and border radius */
     animation: progress 1500ms ease-in 1;
 }
 
-/* Assigning width of each languages*/
+
 .jardineria {
     width: 80%;
 }
@@ -91,8 +80,7 @@ animation and border radius */
     width: 5%;
 }
 
-/* Animating the progress bar by
-initially starting from 0*/
+
 @keyframes progress {
     from {
         width: 0;

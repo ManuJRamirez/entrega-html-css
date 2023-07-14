@@ -41,11 +41,12 @@
           background-position: center;
           margin: 10px; 
         }    
-    }
-    @media (500px < width) and (768px > width){
-      .banner .banner__image {
-        background-image: url(../fotos/banner.JPG);
-        background-size: 110vh;
+      }
+      @media (500px < width) and (768px > width){
+        .banner .banner__image {
+          background-image: url(../fotos/banner.JPG);
+          background-size: 100vh;
+          margin-top: 20px;
       }
     }
     
