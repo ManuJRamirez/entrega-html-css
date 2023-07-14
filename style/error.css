@@ -1,0 +1,30 @@
+.errortext{
+    font-weight: 800;
+    font-size: 30px;
+}
+.errortext h1{
+    text-align: center;
+}
+
+.errorimage{
+    opacity: 0.8;
+}
+
+.errorimage img{
+    display: block;
+    margin: auto;
+    width: 900px;
+}
+
+@media (1000px >= width){
+    .errorimage img{
+        width: 500px;
+    }
+}
+
+
+@media (768px >= width) {
+    .errorimage img{
+        width: 300px;
+    }
+}

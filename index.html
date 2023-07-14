@@ -124,6 +124,11 @@
                 placeholder="Plantilla 600000000" title="Format is 600000000"
                 pattern="[0-9]{9}" required>
             </div>
+            <div class="form__element form__element__cuestionario__dcha">
+              <label class="form__label" for="github">Usuario Github</label>
+              <input class="form__input" id="github" type="text"
+                placeholder="Formato es @username" name="github" pattern="^@[^\s]+" >
+            </div>
             <div class="form__element form__element__cuestionario__izq">  
               <legend class="form__legend">¿Cómo me conocistes?</legend>
               <div class="form__radio">
@@ -145,8 +150,8 @@
             </div>
             </div>
             <div class="form__element form__element__cuestionario__izq">
-              <label class="form__label" for="bio">Más información</label>
-              <textarea class="form__input" name="bio" id="bio" placeholder="¿Qué más necesitas saber de una perrita tan guay como yo?" required maxlength="180"></textarea>
+              <label class="form__label" for="info">Más información</label>
+              <textarea class="form__input" name="masinfo" id="info" placeholder="¿Qué más necesitas saber de una perrita tan guay como yo?" required maxlength="180"></textarea>
             </div>
             <div class="form__element form__element__cuestionario__izq"><!-- form__element--checkbox">-->
               <input type="checkbox" name="updated" id="updated">
@@ -161,8 +166,8 @@
     </main>
     <footer id="footer" class="footer">
       <a href="https://www.instagram.com/meinordica/"><img class="footer__img" src="fotos/instagram.png"></a>
-      <a href="#not_found"><img class="footer__img" src="fotos/facebook.png"></a>
-      <a href="#not_found"><img class="footer__img" src="fotos/youtube.png"></a>
+      <a href="error404.html"><img class="footer__img" src="fotos/facebook.png"></a>
+      <a href="erro500.html"><img class="footer__img" src="fotos/youtube.png"></a>
     </footer>
   </body>
 </html>
