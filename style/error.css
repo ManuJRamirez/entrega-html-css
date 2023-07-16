@@ -14,11 +14,13 @@
     display: block;
     margin: auto;
     width: 900px;
+    margin-bottom: 100px;
 }
 
 @media (1000px >= width){
     .errorimage img{
         width: 500px;
+        margin-bottom: 100px;
     }
 }
 
