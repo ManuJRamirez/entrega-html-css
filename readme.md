@@ -13,3 +13,5 @@ Por último en el footer, he puesto los enlaces a pie las redes sociales. El de 
 Si pasamos a hablar de la web "index.html" en formato móvil, he considerado dejar en el header, sólo los botones de "home" (el del logo) y el de galería, ya que los demás realmente no son necesarios, basta con hacer scroll con el dedo. En el apartado del banner he metido 2 imagenes y un reescalado mas pequeño de una de ellas. En total, he puesto tres transiciones en función del tamaño de la pantalla
 
 Pasando a la página "galería.html"(que sería la equivalente a "Mis Proyectos").  La página empieza con un video centrado y con una animacion fade-in. y sigue con fotos usando una grid.
+
+https://manujramirez.github.io/entrega-html-css/
